@@ -1,2 +1,6 @@
-main :: IO ()
-main = putStrLn "Test suite not yet implemented"
+{-# LANGUAGE NoImplicitPrelude #-}
+
+import qualified System.IO as SysIO
+
+main :: SysIO.IO ()
+main = SysIO.putStrLn "Test suite not yet implemented"

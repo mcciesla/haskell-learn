@@ -1,6 +1,10 @@
+{-# LANGUAGE NoImplicitPrelude #-}
+
 module Lib
     ( someFunc
     ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+import qualified System.IO as SysIO
+
+someFunc :: SysIO.IO ()
+someFunc = SysIO.putStrLn "trest"
