@@ -1,13 +1,13 @@
 name:                haskell-learn
 version:             0.1.0.0
-synopsis:            Initial project template from stack
+synopsis:            Learning Haskell
 description:         Please see README.md
 homepage:            https://github.com/githubuser/haskell-learn#readme
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2017 Author name here
+author:              Michal Ciesla
+maintainer:          mci@post.cz
+copyright:           2017 Michal Ciesla
 category:            Web
 build-type:          Simple
 extra-source-files:  README.md
